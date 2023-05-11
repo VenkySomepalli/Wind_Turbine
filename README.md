@@ -8,8 +8,16 @@ The provided full-year hourly time-series are simulated using the National Renew
 
 # Column names:
 Time stamp
+
 System power generated | (kW)
+
 Wind speed | (m/s)
+
 Wind direction | (deg)
+
 Pressure | (atm)
+
 Air temperature | ('C)
+
+# Aim:
+Predict System power Generated per kW by using above features.
