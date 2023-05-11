@@ -20,4 +20,28 @@ Pressure | (atm)
 Air temperature | ('C)
 
 # Aim:
-Predict System power Generated per kW by using above features.
+Predict System Power Generated per kW by using above features.
+
+# Performed EDA(Exploratory Data Analysis) manually:
+Manuvally checked graphically representation; univariate, bivariate, multivariate plots, and also 
+checked 1st, 2nd, 3rd and 4th moment Business Decision for all features.
+# Performed AutoEDA:
+Checked Sweetviz, PandasProfiling, Autoviz, D-tale, DataPrep
+
+# Data Cleansing/Data Preparation/Data Munging/Data Wangling/ Data Organizing:
+Done all the necessary data cleaning process(refer to Python file)
+
+# Model Building:
+Manually used all the regression models including tree based models.
+
+Applied AutoMl: TPOT Regressor
+Both have performed weel got test ans train accuracies are nearly 99%.
+Accuracies of different models:
+![image](https://github.com/VenkySomepalli/Wind_Turbine/assets/106543953/1ad8b429-9bd3-4cdd-b72c-6fc94c4480a4)
+
+
+See the below image predicted and actual values.
+
+![image](https://github.com/VenkySomepalli/Wind_Turbine/assets/106543953/72458688-574b-4fb4-9614-2cf93107a654)
+
+
